@@ -1,0 +1,103 @@
+*{
+  background-color: #F2F2F7;
+  font-family: Pretendard;
+  overflow-x: hidden;
+  box-sizing:border-box;
+}
+.wrapper{
+  height: 720px;
+  width: 1280px;
+  margin: auto;
+}
+a{
+  text-decoration-line: none;
+}
+.bar_frame{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px;
+  gap: 4px;
+  margin: 1px;/*조절 필요*/
+
+  width: 328px;
+  height: 40px;
+
+  background: #FFFFFF;
+  border-radius: 9999px;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+.box{
+  width: 60px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #686767;
+  background-color: #FFFFFF;
+  border-radius: 9999px;
+}
+.box a{
+  color: #686767;
+  background-color: transparent;
+}
+.focus{
+  background-color: #0E3667;
+  color: #FFFFFF;
+}
+.focus a{
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+map{
+  float: right;
+  width: 855px;
+  height: 698px;
+}
+
+.space_img{
+  height: 180px;
+  width: 328px;
+  margin: 1px 1px 7px;
+  border-radius: 20px;
+}
+
+.space_list{
+  height: 615px;
+  margin-top: 8px;
+}
+.space_list::-webkit-scrollbar{
+  display: none;
+}
+.space_card{
+  position: relative;
+}
+.text{
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  font-weight: 600;
+  top: 0px;
+  left: 16px;
+}
+.button{
+  position: absolute;
+  bottom: 16px;
+  right: 6px;
+
+  background-color: #0E3667;
+  font-size: 14px;
+  width: 72px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+}
+.button a{
+  background-color: transparent;
+  color: #FFFFFF;
+}
